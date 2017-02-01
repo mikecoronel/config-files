@@ -1,5 +1,16 @@
 server:
    port: 28080
+   
+spring:
+   datasource:
+      url: jdbc:mysql://localhost/neashore
+      username: root
+      password: password
+      driverClassName: com.mysql.jdbc.Driver
+   jpa:
+      database-platform: org.hibernate.dialect.MySQL5Dialect
+      show-sql: true
+      hibernate.ddl-auto: update
 
 eureka:
    client:
