@@ -1,5 +1,5 @@
 server:
-   port: 8000
+   port: 0
 
 message: MENSAJE DESDE MEETUP LIVE CODING SESION
 
