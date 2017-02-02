@@ -1,11 +1,12 @@
 server:
    port: 28080
    
-spring.datasource.url=jdbc:mysql://localhost/issuetracker
-spring.datasource.username=root
-spring.datasource.password=password
-spring.datasource.driverClassName=com.mysql.jdbc.Driver
+spring:
+   datasource.url: jdbc:mysql://localhost/issuetracker
+   datasource.username: root
+   datasource.password: password
+   datasource.driverClassName: com.mysql.jdbc.Driver
 
-spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect
-spring.jpa.show-sql=true
-spring.jpa.hibernate.ddl-auto=update
+   jpa.database-platform: org.hibernate.dialect.MySQL5Dialect
+   jpa.show-sql: true
+   jpa.hibernate.ddl-auto: update
