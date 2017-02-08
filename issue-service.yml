@@ -2,7 +2,7 @@ server:
    port: 28080
    
 spring:
-   datasource.url: jdbc:mysql://172.17.0.2/issuetracker
+   datasource.url: jdbc:mysql://172.17.0.2/nearshore
    datasource.username: root
    datasource.password: supersecret
    datasource.driverClassName: com.mysql.jdbc.Driver
