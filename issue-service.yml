@@ -7,6 +7,6 @@ spring:
    datasource.password: supersecret
    datasource.driverClassName: com.mysql.jdbc.Driver
 
-   jpa.database-platform: org.hibernate.dialect.MySQL5Dialect
+   #jpa.database-platform: org.hibernate.dialect.MySQL5Dialect
    jpa.show-sql: true
-   jpa.hibernate.ddl-auto: update
+   #jpa.hibernate.ddl-auto: update
