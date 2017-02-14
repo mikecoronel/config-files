@@ -1,6 +1,3 @@
-spring:
-  application:
-    name: spring-cloud-eureka-client
 server:
   port: 0
 eureka:
@@ -12,14 +9,19 @@ eureka:
     preferIpAddress: true
    
 spring:
-   datasource.url: jdbc:mysql://172.17.0.2/nearshore
-   datasource.username: root
-   datasource.password: supersecret
-   datasource.driverClassName: com.mysql.jdbc.Driver
+   application:
+    name: nearshore-data-service
+   
+   datasource:
+    url: jdbc:mysql://172.17.0.2/nearshore
+    username: root
+    password: supersecret
+    driverClassName: com.mysql.jdbc.Driver
 
-   jpa.database-platform: org.hibernate.dialect.MySQL5Dialect
-   jpa.show-sql: true
-   jpa.hibernate.ddl-auto: update
+   jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+    hibernate.ddl-auto: update
    
    jackson:
     serialization:
