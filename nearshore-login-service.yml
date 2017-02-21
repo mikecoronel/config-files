@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: nearshore-login-service
+  redis:
+    host: localhost
+    port: 6379
     
 eureka:
   client:
