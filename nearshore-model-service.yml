@@ -1,0 +1,17 @@
+server:
+  port: 28080
+spring:
+  application:
+    name: nearshore-model-service
+  
+  datasource:
+    url: jdbc:mysql://172.17.0.2/nearshoremodel
+    username: root
+    password: supersecret
+    driverClassName: com.mysql.jdbc.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+    hibernate.ddl-auto: update
+    
